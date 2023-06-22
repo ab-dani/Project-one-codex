@@ -13,3 +13,12 @@ if (age < 18) {
 } else {
   alert("You can apply");
 }
+
+
+let color = prompt("What's my favorite color?");
+
+if (color < blue) {
+  alert("You are right!");
+} else {
+  alert("Nope not it!");
+}
