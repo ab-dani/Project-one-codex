@@ -23,7 +23,8 @@ if (color < blue) {
   alert("Nope not it!");
 }
 
-function rendeerUsername() = prompt("What is your favorite ") {
+function rendeerUsername() = prompt("What is your favorite "); {
+  prompt("What is your favorite ")
   if (Username == '') {
     rendeerUsername (); 
 
