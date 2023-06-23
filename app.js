@@ -29,5 +29,5 @@ function rendeerUsername() = prompt("What is your favorite ") {
 
   }
   console.log("What is your name?" + Username)
-}
+};
 return document.write('Hello + Username');
