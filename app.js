@@ -22,3 +22,12 @@ if (color < blue) {
 } else {
   alert("Nope not it!");
 }
+
+function rendeerUsername() = prompt("What is your favorite ") {
+  if (Username == '') {
+    rendeerUsername (); 
+
+  }
+  console.log("What is your name?" + Username)
+}
+return document.write('Hello + Username');
