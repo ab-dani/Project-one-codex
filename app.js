@@ -28,7 +28,7 @@ function renderUsername(){
       renderUsername();
       }
         
-    
+      return document.write('Hello ' + username);
     }
 
-    return document.write('Hello ' + username);
+    
