@@ -25,6 +25,7 @@ if (color < blue) {
 }
 
 let age = prompt("What is yout age");
+
 if (age < 18) {
   alert("You cannot apply");
 } else {
