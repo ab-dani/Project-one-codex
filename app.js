@@ -3,7 +3,7 @@ alert("Olá");
 
 document.write("Hello World!");
 
-console.log("Bonjour!");
+
 
 
   function name() {
