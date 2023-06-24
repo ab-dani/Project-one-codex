@@ -16,13 +16,6 @@ username();
 
 
 
-if (age < 18) {
-  alert("You cannot apply");
-} else {
-  alert("You can apply");
-}
-
-
 let color = prompt("What's my favorite color?");
 
 if (color < blue) {
@@ -31,3 +24,9 @@ if (color < blue) {
   alert("Nope not it!");
 }
 
+
+if (age < 18) {
+  alert("You cannot apply");
+} else {
+  alert("You can apply");
+}
