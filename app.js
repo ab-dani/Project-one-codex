@@ -4,7 +4,7 @@ alert("Olá");
 
 document.write("Hello World!");
 
-function name() {
+function username() {
   let name = prompt("What's your name?");
 
   if (name = "Antonio") {
