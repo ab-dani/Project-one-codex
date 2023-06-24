@@ -7,9 +7,11 @@ document.write("Hello World!");
 function username() {
   let name = prompt("What's your name?");
 
-  if (name = "Antonio") {
-    alert("Your name comes from the Latin  Antonio");
+  while (name !== "Antonio") {
+    name = prompt("What is your name?");
+   
   }
+  alert("Welcome" + name)
 }
 
 username();
@@ -38,3 +40,26 @@ if (age < 18) {
 }
 
 guessAge();
+
+
+
+function guessAge() {
+  let age = prompt('How old are you?');
+  
+  let message;
+  if(age == ''){
+      usersAge();
+  } else if (age < 18) {
+      message = 'You are a minor';
+  } else if (age >= 18) {
+      message = 'You are an adult';
+  } else if (age >= 65) {
+      message = 'You qualify for our senior discount';
+  } else {
+      message = 'That is not a valid entry. Please enter your age in numbers';
+  }
+
+  console.log(message);
+  return document.write(message);
+
+  
