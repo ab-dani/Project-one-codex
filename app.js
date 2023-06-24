@@ -18,7 +18,7 @@ username();
 function guessColor(){
 let color = prompt("What's my favorite color?");
 
-if (color == blue) {
+if (color == "blue") {
   alert("You are right!");
 } else {
   alert("Nope not it!");
