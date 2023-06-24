@@ -8,7 +8,7 @@ console.log("Bonjour!");
 function username() {
     let name = prompt('What is your name?')
     if (name = 'Antonio') {
-      alert(" You name comes from Latin Antonio ")
+      alert(" You name comes from Latin Antonio")
     }
 
 
