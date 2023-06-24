@@ -6,7 +6,7 @@ document.write("Hello World!");
 console.log("Bonjour!");
 
 
-  }
+  
 
 let age = prompt("How old are you?");
 
