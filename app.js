@@ -30,3 +30,5 @@ if (age < 18) {
 } else {
   alert("You can apply");
 }
+
+let age = prompt("What is yout age");
