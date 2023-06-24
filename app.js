@@ -15,19 +15,26 @@ function username() {
 username();
 
 
-
+function guessColor(){
 let color = prompt("What's my favorite color?");
 
-if (color < blue) {
+if (color == blue) {
   alert("You are right!");
 } else {
   alert("Nope not it!");
 }
+}
 
-let age = prompt("What is yout age");
+guessColor();
+
+function guessAge(){
+let age = prompt("What's is your age");
 
 if (age < 18) {
   alert("You cannot apply");
 } else {
   alert("You can apply");
 }
+}
+
+guessAge();
