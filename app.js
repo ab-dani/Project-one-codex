@@ -23,12 +23,10 @@ if (color < blue) {
   alert("Nope not it!");
 }
 function renderUsername(){
-    username = prompt('What is your name? ');
-      if (username == 'Antonio') {
-      renderUsername();
-      }
-        
-      return document.write('Hello ' + username);
-    }
-
-    
+  username = prompt('What is your name? ');
+  if (username == '') {
+  renderUsername();
+  }
+  console.log(username);
+  return document.write('Hello ' + username);
+  }
