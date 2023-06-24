@@ -5,16 +5,14 @@ document.write("Hello World!");
 
 console.log("Bonjour!");
 
-
 function renderUsername(){
-  username = prompt('What is your name?');
+  username = prompt('What is your name? ');
   if (username == '') {
   renderUsername();
   }
   console.log(username);
-  return document.write('Hello' + username);
+  return document.write('Hello ' + username);
   }
-
 
 let age = prompt("How old are you?");
 
