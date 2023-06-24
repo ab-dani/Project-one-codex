@@ -24,7 +24,7 @@ if (color < blue) {
 }
 function renderUsername(){
   username = prompt('What is your name?');
-  if (username == 'Antonio') {
+  if (username == '') {
   renderUsername();
   }
   console.log(username);
