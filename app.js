@@ -10,7 +10,7 @@ console.log("Bonjour!");
     let name = prompt("What's your name?");
   
     if (name === "Antonio") {
-      alert("Your name comes from the Greek -> Sophia");
+      alert("Your name comes from the Latin -> Antonio");
     }
   }
   
