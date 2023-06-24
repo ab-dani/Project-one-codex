@@ -24,11 +24,9 @@ if (color < blue) {
   alert("Nope not it!");
 }
 
-
+let age = prompt("What is yout age");
 if (age < 18) {
   alert("You cannot apply");
 } else {
   alert("You can apply");
 }
-
-let age = prompt("What is yout age");
