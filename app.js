@@ -23,7 +23,7 @@ if (color < blue) {
   alert("Nope not it!");
 }
 function renderUsername(){
-  username = prompt('What is your name? ');
+  username = prompt('What is your name?');
   if (username == 'Antonio') {
   renderUsername();
   }
