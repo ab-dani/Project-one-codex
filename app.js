@@ -53,3 +53,11 @@ function guessAge() {
   return document.write(message);
 
 }
+
+function displayRating(){
+  let output = "";
+  let rating = prompt('Rate my page on a scale of 1-5');
+  for (let i = 0; i < rating; i++){
+    output += "<img class = 'star' src'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=='/>"
+  }
+}
