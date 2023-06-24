@@ -5,16 +5,16 @@ document.write("Hello World!");
 
 console.log("Bonjour!");
 
-function renderUsername(){
-  username = prompt('What is your name? ');
-  if (username == 'Antonio') {
-  renderUsername();
-  }
-  console.log(username);
+
+  function name() {
+    let name = prompt("What's your name?");
   
+    if (name === "Antonio") {
+      alert("Your name comes from the Greek -> Sophia");
+    }
   }
-  return document.write('Hello ' + username);
   
+  sayFact();
 
 
 if (age < 18) {
