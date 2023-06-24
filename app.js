@@ -29,17 +29,7 @@ if (color == "blue") {
 
 guessColor();
 
-function guessAge(){
-let age = prompt("What's is your age");
 
-if (age < 18) {
-  alert("You cannot apply");
-} else {
-  alert("You can apply");
-}
-}
-
-guessAge();
 
 
 
@@ -62,4 +52,4 @@ function guessAge() {
   console.log(message);
   return document.write(message);
 
-  
+}
