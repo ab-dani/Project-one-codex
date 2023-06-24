@@ -4,6 +4,13 @@ alert("Olá");
 
 document.write("Hello World!");
 
+function name() {
+  let name = prompt("What's your name?");
+
+  if (name = "Antonio") {
+    alert("Your name comes from the Latin  Antonio");
+  }
+}
 
 
 
@@ -24,10 +31,3 @@ if (color < blue) {
   alert("Nope not it!");
 }
 
-function name() {
-  let name = prompt("What's your name?");
-
-  if (name = "Antonio") {
-    alert("Your name comes from the Latin  Antonio");
-  }
-}
