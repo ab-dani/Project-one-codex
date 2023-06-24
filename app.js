@@ -14,6 +14,7 @@ document.write("Hello World!");
 
 
 
+
 if (age < 18) {
   alert("You cannot apply");
 } else {
