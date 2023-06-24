@@ -16,7 +16,6 @@ function renderUsername(){
   return document.write('Hello ' + username);
   
 
-let age = prompt("How old are you?");
 
 if (age < 18) {
   alert("You cannot apply");
