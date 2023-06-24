@@ -2,7 +2,7 @@ function name() {
   let name = prompt("What's your name?");
 
   if (name === "Antonio") {
-    alert("Your name comes from the Latin -> Antonio");
+    alert("Your name comes from the Latin  Antonio");
   }
 }
 
